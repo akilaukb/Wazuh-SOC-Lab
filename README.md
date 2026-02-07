@@ -32,12 +32,12 @@ I chose the **manual key extraction method** (`manage_agents`) to understand the
 ![](images/image-12.png)
 
 
-![Agent Connection Success](images/image 7.png)
+![Agent Connection Success](images/image-7.png)
 
 ### Option 2 Agent Deployment 
 
 1. We can Get the Code from the WAZUH Dashboard and Run that code in Windows Host and Run the Agent Service.
-![](images/image 4.png)
+![](images/image-4.png)
 
 2. Copy code Manger generates and past in powershell in windows pc and restart the agent service then you can see agen in Dashboard as well
    ![](images/image-5.png)
@@ -52,7 +52,7 @@ Configured `ossec.conf` to monitor the `C:\Users\abc\Test` directory for changes
 ![](images/image-13.png)
 ![](images/image-14.png)
 ![](images/image-16.png)
-![Restart Agent Service](images/image 15.png)
+![Restart Agent Service](images/image-15.png)
 1.  Wazuh immediately triggered an alert: "File added to the system."
 
 ![FIM Alert Dashboard](images/image-18.png)
