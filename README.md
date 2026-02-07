@@ -10,8 +10,7 @@
 * **Wazuh Manager:** Hosted on Ubuntu 20.04 VM (IP: 172.30.10.196).
 * **Wazuh Agent:** Installed on Windows Host (IP: 172.30.10.27).
 * **Network:** Bridged connection allowing direct communication on the 172.30.x.x subnet.
-* (images/1-wazuh-architecture.png)
-* 
+  ![Wazuh Diagram](/images/1-wazuh-architecture.png)
 
 ## 3. Installation & Configuration
 ### Manager Installation
