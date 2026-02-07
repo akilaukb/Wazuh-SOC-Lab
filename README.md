@@ -19,6 +19,7 @@ Verified package integrity using GPG keys to ensure security.
 
 ![](images/image-1.png)
 ![](images/image-2.png)
+**We can See the Dashboard**
 ![](images/image-3.png)
 
 ### Agent Deployment
@@ -64,7 +65,7 @@ Configured `ossec.conf` to monitor the `C:\Users\abc\Test` directory for changes
 
 ![](images/image-14.png)
 
-**we cannot see Agent Active Need to troubleshoot : (need to restart agent to apply newly setup directory) ![](images/image-16.png)
+**we cannot see Agent Active Need to troubleshoot : (need to restart agent to apply newly setup directory)** ![](images/image-16.png)
 ![Restart Agent Service](images/image-15.png)
 2.  Wazuh immediately triggered an alert: "File added to the system."
 
