@@ -18,6 +18,7 @@ Used the automated installation script to deploy the Manager, Indexer, and Dashb
 Verified package integrity using GPG keys to ensure security.
 
 ![](images/image-1.png)
+
 ![](images/image-2.png)
 **We can See the Dashboard**
 ![](images/image-3.png)
@@ -26,6 +27,7 @@ Verified package integrity using GPG keys to ensure security.
 I chose the **manual key extraction method** (`manage_agents`) to understand the underlying authentication process.
 1.  Generated agent credentials on the Ubuntu server.
 ![](images/image-10.png)
+
 ![](images/image-11.png)
 
 1.  Extracted the secret key.
@@ -39,9 +41,10 @@ I chose the **manual key extraction method** (`manage_agents`) to understand the
 3. Downlaod and Setup Agent 
 
 ![](images/image-8.png)
+
 ![](images/image-9.png)
 
-** we need to restart the Service to Active Agent ![](images/image-15.png)
+**We need to restart the Service to Active Agent** ![](images/image-15.png)
 
 ![Agent Connection Success](images/image-7.png)
 
@@ -51,23 +54,27 @@ I chose the **manual key extraction method** (`manage_agents`) to understand the
 ![](images/image-4.png)
 
 2. Copy code Manger generates and past in powershell in windows pc and restart the agent service. 
+3. 
    ![](images/image-5.png)
+
    ![](images/image-6.png)
 
-3. Now you can see agen in Dashboard Agent Active. ![](images/image-7.png)
+4. Now you can see agen in Dashboard Agent Active. ![](images/image-7.png)
 
 ## 4. Threat Simulation: File Integrity Monitoring (FIM)
 Configured `ossec.conf` to monitor the `C:\Users\abc\Test` directory for changes.
 
 **Test Case:**
 1.  Created a file named `test.txt` in the monitored folder.
+   
 ![](images/image-13.png)
 
 ![](images/image-14.png)
 
 **we cannot see Agent Active Need to troubleshoot : (need to restart agent to apply newly setup directory)** ![](images/image-16.png)
 ![Restart Agent Service](images/image-15.png)
-2.  Wazuh immediately triggered an alert: "File added to the system."
+
+1.  Wazuh immediately triggered an alert: "File added to the system."
 
 ![FIM Alert Dashboard](images/image-18.png)
 
